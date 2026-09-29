@@ -7,4 +7,5 @@ I'm a beginner systems programmer.**
 
 - [основы редактирования](text.md)
 - [Markdown](/md.md)
--
+- [Mermaid](/Mermaid.md)
+- [Task mermaid](/Task%20mermaid.md)
