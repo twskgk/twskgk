@@ -9,4 +9,5 @@ I'm a beginner systems programmer.**
 - [Markdown](/md.md)
 - [Mermaid](/Mermaid.md)
 - [Task mermaid](/Task%20mermaid.md)
-- [Bash_CLI](/BASH_CLI.md)
+- [BASH_CLI](/BASH_CLI.md)
+- [BashScript](/BashScript.md)
