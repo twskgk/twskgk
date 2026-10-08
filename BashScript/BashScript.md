@@ -1,7 +1,7 @@
 # Bash scripting
 
 Самостоятельная работа по Bash-программированию.
-Выполнено в VS Code + Git-Bash. Все скрипты лежат в папке [`bashScripting`](/theory/Operating%20Systems%20and%20Environments/BashScript/).
+Выполнено в VS Code + Git-Bash. Все скрипты лежат в папке [`BashScript`](/mfuawork/Main/BashScript/src/).
 
 ## Скрипты
 
@@ -40,7 +40,6 @@ bash 8.sh torvalds/linux
 
 ```bash
 #!/bin/bash
-# Спрашиваем имя и здороваемся
 echo "Как вас зовут?"
 read name
 echo "Привет, $name!"
@@ -48,7 +47,7 @@ echo "Привет, $name!"
 
 Скриншот вывода:
 
-![1](/theory/Operating%20Systems%20and%20Environments/img/1.png)
+![1](img/1.png)
 
 ### 2. Сумма двух чисел
 
@@ -56,7 +55,6 @@ echo "Привет, $name!"
 
 ```bash
 #!/bin/bash
-# Сумма двух чисел
 read -p "Введите первое число: " a
 read -p "Введите второе число: " b
 sum=$((a + b))
@@ -65,7 +63,7 @@ echo "Сумма: $sum"
 
 Скриншот вывода:
 
-![2](/theory/Operating%20Systems%20and%20Environments/img/2.png)
+![2](img/2.png)
 
 ### 3. Проверка на чётность
 
@@ -73,7 +71,6 @@ echo "Сумма: $sum"
 
 ```bash
 #!/bin/bash
-# Проверка числа на чётность
 read -p "Введите число: " num
 
 if [ $((num % 2)) -eq 0 ]; then
@@ -85,34 +82,14 @@ fi
 
 Скриншот вывода:
 
-![3](/theory/Operating%20Systems%20and%20Environments/img/3.png)
+![3](img/3.png)
 
-### 4. Структура веб-проекта
-
-Скрипт создаёт папки `css`, `js`, `img` и файл `index.html`.
-
-```bash
-#!/bin/bash
-# Создаём папки для веб-проекта
-mkdir -p myproject/css
-mkdir -p myproject/js
-mkdir -p myproject/img
-touch myproject/index.html
-echo "Структура проекта создана:"
-ls -R myproject
-```
-
-Скриншот вывода:
-
-![4](/theory/Operating%20Systems%20and%20Environments/img/4.png)
-
-### 5. Подсчёт строк в файле
+### 4. Подсчёт строк в файле
 
 Скрипт считает, сколько строк в файле.
 
 ```bash
 #!/bin/bash
-# Считаем строки в файле
 read -p "Введите имя файла: " filename
 
 if [ -f "$filename" ]; then
@@ -125,30 +102,28 @@ fi
 
 Скриншот вывода:
 
-![5](/theory/Operating%20Systems%20and%20Environments/img/5.png)
+![4](img/4.png)
 
-### 6. Генератор пароля
+### 5. Генератор пароля
 
 Скрипт создаёт случайный пароль из 8 символов.
 
 ```bash
 #!/bin/bash
-# Генератор пароля из 8 символов
 password=$(tr -dc 'A-Za-z0-9' < /dev/urandom | head -c 8)
 echo "Ваш пароль: $password"
 ```
 
 Скриншот вывода:
 
-![6](/theory/Operating%20Systems%20and%20Environments/img/6.png)
+![5](img/5.png)
 
-### 7. Поиск файлов по расширению
+### 6. Поиск файлов по расширению
 
 Скрипт ищет в текущей папке файлы с нужным расширением.
 
 ```bash
 #!/bin/bash
-# Поиск файлов по расширению в текущей папке
 read -p "Введите расширение (например txt): " ext
 
 echo "Найденные файлы:"
@@ -161,16 +136,16 @@ fi
 
 Скриншот вывода:
 
-![7](/theory/Operating%20Systems%20and%20Environments/img/7.png)
+![6](img/6.png)
 
-### 8. GitHub Repository Analyzer
+### 7. GitHub Repository Analyzer
 
 Скрипт показывает звёзды, форки и issues репозитория через GitHub API. Нужен `curl`.
 
 ```bash
 #!/bin/bash
-# Статистика репозитория GitHub (нужен curl)
-# Запуск: bash 8.sh tensorflow/tensorflow
+
+# Запуск: bash 8.sh alexrezchikov/alexrezchikov
 
 repo=$1
 
@@ -218,7 +193,7 @@ fi
 
 Скриншот вывода:
 
-![8](/theory/Operating%20Systems%20and%20Environments/img/8.png)
+![7](img/7.png)
 
 ***
 
