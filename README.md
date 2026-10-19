@@ -13,4 +13,4 @@ I'm a beginner systems programmer.**
 - [BashScript](/BashScript.md)
 - [Git](/Git.md)
 -----------------
-- [https://twskgk.github.io/next_site/]
+- [Ai site](https://twskgk.github.io/next_site/)
