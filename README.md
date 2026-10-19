@@ -14,4 +14,4 @@ I'm a beginner systems programmer.**
 - [Git](/Git.md)
 -----------------
 - [Ai site](https://twskgk.github.io/next_site/)
--[repository](https://github.com/twskgk/next_site)
+- [repository](https://github.com/twskgk/next_site)
