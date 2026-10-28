@@ -9,9 +9,9 @@ I'm a beginner systems programmer.**
 - [Markdown](/md.md)
 - [Mermaid](/Mermaid.md)
 - [Task mermaid](/Task%20mermaid.md)
-- [BASH_CLI](/BASH_CLI.md)
+- [Основы BASH_CLI](/BASH_CLI.md)
 - [BashScript](/BashScript.md)
-- [Git](/Git.md)
+- [Основы Git](/Git.md)
 -----------------
 - [Ai site](https://twskgk.github.io/next_site/)
 - [repository](https://github.com/twskgk/next_site)
