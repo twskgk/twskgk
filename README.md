@@ -17,3 +17,5 @@ I'm a beginner systems programmer.**
 - [repository](https://github.com/twskgk/next_site)
 -----------------
 - [Repository teacher's](https://gitflic.ru/project/rurewa/mfua)
+
+- [Cosiness team_project](https://github.com/alexrezchikov/Cosiness)
