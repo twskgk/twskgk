@@ -21,6 +21,8 @@ docker run -d `
   adminer:latest
 ```
 
+![task 1](/Docker/Adminer/task%201.png)
+
 Запустите **Adminer** в **Git-Bash/Linux/WSL 2.0/Mac**
 ```shell
 docker run -d \
@@ -28,7 +30,12 @@ docker run -d \
   -p 8084:8080 \
   adminer:latest
 ```
+
+![task 2](/Docker/Adminer/task%202.png)
+
 [Откройте: http://localhost:8084](http://localhost:8084)
+
+![task 3](/Docker/Adminer/task%203.png)
 
 При необходимости можно из этого же образа создать ещё один контейнер:
 ```shell
@@ -37,7 +44,13 @@ docker run -d \
   -p 8085:8080 \
   adminer:latest
 ```
+
+![task 5](/Docker/Adminer/task%205.png)
+
 [Откройте: http://localhost:8085](http://localhost:8085)
+
+![task 4](/Docker/Adminer/task%204.png)
+
 
 
 > Без отдельно запущенного контейнера с БД PostgreSQL и связи с ним админ-панель работаеть не будет!
