@@ -12,7 +12,7 @@
 ```shell
 docker run -d --name my-apache -p 8081:80 httpd
 ```
-[task 1](/Apache/task%201.png)
+![task 1](/Apache/task%201.png)
 
 [Откройте адрес http://localhost:8081 в браузере](http://localhost:8081)
 
@@ -39,7 +39,7 @@ micro /usr/local/apache2/htdocs/index.html
 
 [Проверьте результат по адрес http://localhost:8081](http://localhost:8081)
 
-[task 2](/Apache/task%202.png)
+![task 2](/Apache/task%202.png)
 
 Выйти из контейнера:
 ```shell
