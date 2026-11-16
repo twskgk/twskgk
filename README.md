@@ -19,6 +19,7 @@ I'm a beginner systems programmer.**
 -----------------
 - [Ai site](https://twskgk.github.io/next_site/)
 - [repository](https://github.com/twskgk/next_site)
+- [Static_Apache](/Docker/Static_Apache/README.md)
 -----------------
 - [Repository teacher's](https://gitflic.ru/project/rurewa/mfua)
 
