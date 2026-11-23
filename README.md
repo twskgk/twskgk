@@ -13,11 +13,7 @@ I'm a beginner systems programmer.**
 - [BashScript](/BashScript.md)
 - [Основы Git](/Git.md)
 - [Docker](/Docker.md)
-- [Apache](/Docker/Apache/README.md)
-- [Adminer](/Docker/Adminer/README.md)
-- [LibdreDB_Studio](/Docker/LibreDB_Studio/README.md)
-- [Static_Apache](/Docker/Static_Apache/README.md)
-- [Olama](/Docker/Olama/README.md)
+- [Лабораторные работы](/Docker/README.md)
 -----------------
 - [Ai site](https://twskgk.github.io/next_site/)
 - [repository](https://github.com/twskgk/next_site)
