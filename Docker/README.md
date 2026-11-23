@@ -1,4 +1,4 @@
- Лабораторные работы
+ Docker labs
  - [Apache](/Docker/Apache/README.md)
 - [Adminer](/Docker/Adminer/README.md)
 - [LibdreDB_Studio](/Docker/LibreDB_Studio/README.md)
